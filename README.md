@@ -326,6 +326,7 @@ screenshots/
 └── analytics.png
 ```
 
+
 ### Home Page
 
 ![LexiSense Home Page](screenshots/home.png)
@@ -343,6 +344,7 @@ screenshots/
 ![Analysis Dashboard](screenshots/analytics.png)
 
 ---
+
 
 ## 📁 Project Structure
 
