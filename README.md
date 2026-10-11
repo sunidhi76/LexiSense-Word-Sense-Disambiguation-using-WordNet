@@ -326,8 +326,6 @@ screenshots/
 └── analytics.png
 ```
 
-Embed them in this README using relative paths:
-
 ### Home Page
 
 ![LexiSense Home Page](screenshots/home.png)
@@ -343,8 +341,6 @@ Embed them in this README using relative paths:
 ### Analysis and Statistics
 
 ![Analysis Dashboard](screenshots/analytics.png)
-
-Ensure these image files are actually added to the repository; otherwise, the screenshot links will not render on GitHub.
 
 ---
 
