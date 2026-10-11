@@ -305,4 +305,121 @@ Explore summary metrics and interactive charts generated from the available data
 | Sentence | The fisherman sat on the bank of the river. |
 | Target word | bank |
 | Predicted sense | `bank.n.01` |
-| Definition | Sl
+| Definition | Sloping land beside a body of water |
+| Algorithm | Enhanced Lesk |
+
+The exact prediction and score depend on the WordNet version, implementation, and scoring configuration.
+
+---
+
+## 📸 Application Screenshots
+
+Create a folder named `screenshots/` in the repository and add your application screenshots.
+
+Recommended structure:
+
+```text
+screenshots/
+├── home.png
+├── dataset_analyzer.png
+├── sense_analyzer.png
+└── analytics.png
+```
+
+Embed them in this README using relative paths:
+
+### Home Page
+
+![LexiSense Home Page](screenshots/home.png)
+
+### Dataset Analyzer
+
+![Dataset Analyzer](screenshots/dataset_analyzer.png)
+
+### Sense Analyzer
+
+![Sense Analyzer](screenshots/sense_analyzer.png)
+
+### Analysis and Statistics
+
+![Analysis Dashboard](screenshots/analytics.png)
+
+Ensure these image files are actually added to the repository; otherwise, the screenshot links will not render on GitHub.
+
+---
+
+## 📁 Project Structure
+
+```text
+LexiSense_WSD/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   └── sample_wsd_dataset.csv
+│
+├── src/
+│   ├── __init__.py
+│   ├── wsd_engine.py
+│   ├── wordnet_utils.py
+│   ├── preprocessing.py
+│   └── visualizations.py
+│
+├── utils/
+│   └── helpers.py
+│
+└── assets/
+    └── README.txt
+```
+
+---
+
+## ⚠️ Limitations
+
+- Lesk-based methods rely on lexical overlap and may struggle when context and definitions use different vocabulary.
+- WordNet may not contain an appropriate synset for every word or usage.
+- The system's score should not be interpreted as a calibrated probability.
+- The built-in sample dataset demonstrates functionality but does not establish benchmark-level accuracy.
+- The quality of predictions can vary with sentence structure and the selected target word.
+
+---
+
+## 🔮 Future Enhancements
+
+- Evaluate performance on standard labelled WSD datasets.
+- Add POS-aware candidate filtering.
+- Compare Lesk with transformer-based contextual embeddings.
+- Improve confidence estimation and error analysis.
+- Support larger datasets and additional output formats.
+- Add further lexical relationship visualizations.
+
+---
+
+## 📚 References
+
+1. [NLTK WordNet Interface](https://www.nltk.org/howto/wordnet.html)
+2. [NLTK Documentation](https://www.nltk.org/)
+3. [Streamlit Documentation](https://docs.streamlit.io/)
+4. Lesk, M. (1986). *Automatic Sense Disambiguation Using Machine Readable Dictionaries: How to Tell a Pine Cone from an Ice Cream Cone.*
+5. [Plotly Python Documentation](https://plotly.com/python/)
+
+---
+
+## 👩‍💻 Project Information
+
+**Project:** LexiSense – Word Sense Disambiguation using WordNet  
+**Domain:** Natural Language Processing (NLP)  
+**Interface:** Streamlit  
+**Core Method:** Basic Lesk and Enhanced Lesk  
+**Lexical Resource:** NLTK WordNet
+
+---
+
+## ⭐ Support
+
+If you find this project useful for learning NLP and lexical semantics, consider giving the repository a star.
+
+*LexiSense — Understanding Meaning Through Context.*
