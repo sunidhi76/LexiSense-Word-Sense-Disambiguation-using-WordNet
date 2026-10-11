@@ -418,8 +418,3 @@ LexiSense_WSD/
 
 ---
 
-## ⭐ Support
-
-If you find this project useful for learning NLP and lexical semantics, consider giving the repository a star.
-
-*LexiSense — Understanding Meaning Through Context.*
